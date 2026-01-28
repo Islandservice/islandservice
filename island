@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>株式会社〇〇物流｜今どき・柔軟な物流サービス</title>
+  <style>
+    body { margin: 0; font-family: "Noto Sans JP", sans-serif; color: #333; line-height: 1.7; }
+    header { background: linear-gradient(135deg, #1e88e5, #42a5f5); color: #fff; padding: 70px 20px; text-align: center; }
+    header h1 { margin: 0; font-size: 36px; }
+    header p { margin-top: 15px; font-size: 18px; }
+    .cta { margin-top: 30px; display: inline-block; background: #fff; color: #1e88e5; padding: 14px 26px; border-radius: 30px; font-weight: bold; text-decoration: none; }
+    nav { background: #1565c0; padding: 12px 20px; text-align: center; }
+    nav a { color: #fff; margin: 0 15px; text-decoration: none; font-size: 14px; }
+    section { padding: 70px 20px; max-width: 1100px; margin: 0 auto; }
+    h2 { font-size: 28px; margin-bottom: 25px; text-align: center; }
+    .services { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 25px; }
+    .card { background: #fff; border-radius: 12px; padding: 25px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
+    .reasons { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; text-align: center; }
+    .reason { background: #f5f9ff; border-radius: 12px; padding: 25px; }
+    table { width: 100%; border-collapse: collapse; margin-top: 30px; }
+    th, td { border: 1px solid #ddd; padding: 14px; }
+    th { background: #f2f6fb; width: 30%; }
+    footer { background: #f2f2f2; text-align: center; padding: 35px 20px; font-size: 14px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>株式会社〇〇物流</h1>
+  <p>急ぎも、定期も。物流をもっと気軽に。</p>
+  <a href="#contact" class="cta">無料で相談する</a>
+</header>
+
+<nav>
+  <a href="#services">サービス</a>
+  <a href="#reasons">選ばれる理由</a>
+  <a href="#about">会社概要</a>
+  <a href="#contact">お問い合わせ</a>
+</nav>
+
+<section id="services">
+  <h2>サービス</h2>
+  <div class="services">
+    <div class="card">
+      <h3>チャーター・緊急配送</h3>
+      <p>今すぐ運びたい荷物に対応。小回りの利く柔軟な配送が強みです。</p>
+    </div>
+    <div class="card">
+      <h3>定期・ルート配送</h3>
+      <p>企業様向けの安定した定期配送。コスト・時間の最適化を支援します。</p>
+    </div>
+    <div class="card">
+      <h3>倉庫・在庫管理</h3>
+      <p>保管から出荷まで一括対応。物流業務の手間を減らします。</p>
+    </div>
+  </div>
+</section>
+
+<section id="reasons">
+  <h2>選ばれる理由</h2>
+  <div class="reasons">
+    <div class="reason">
+      <h3>対応が早い</h3>
+      <p>お問い合わせから即レス。急ぎ案件もまず相談OK。</p>
+    </div>
+    <div class="reason">
+      <h3>柔軟対応</h3>
+      <p>小口・スポット・特殊案件も柔軟に対応します。</p>
+    </div>
+    <div class="reason">
+      <h3>地域密着</h3>
+      <p>地場配送に強く、細かい要望にも対応可能。</p>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <h2>会社概要</h2>
+  <table>
+    <tr><th>会社名</th><td>株式会社〇〇物流</td></tr>
+    <tr><th>所在地</th><td>大阪府〇〇市〇〇町1-2-3</td></tr>
+    <tr><th>代表者</th><td>代表取締役 山田 太郎</td></tr>
+    <tr><th>事業内容</th><td>一般貨物輸送／チャーター便／倉庫管理</td></tr>
+  </table>
+</section>
+
+<section id="contact">
+  <h2>お問い合わせ</h2>
+  <p style="text-align:center;">ご相談・お見積りは無料です。まずはお気軽にご連絡ください。</p>
+  <p style="text-align:center; font-size:18px;">
+    📞 06-0000-0000<br />
+    ✉️ info@example.co.jp
+  </p>
+</section>
+
+<footer>
+  <p>© 株式会社〇〇物流 All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
